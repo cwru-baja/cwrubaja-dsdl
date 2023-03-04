@@ -1,0 +1,6 @@
+# Servo Controller State datatype
+# Encapsulates the current status of Servo Controller
+
+float32 servoCurrent
+bool engaged
+uint32 state
