@@ -1,6 +1,7 @@
 # Servo Controller State datatype
 # Encapsulates the current status of Servo Controller
 
-float32 servoCurrent
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+uavcan.si.unit.electric_current.Scalar.1.0 servoCurrent
 bool engaged
 uint32 state
