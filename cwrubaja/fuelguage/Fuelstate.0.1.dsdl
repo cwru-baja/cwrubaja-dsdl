@@ -1,3 +1,3 @@
 uavcan.time.SynchronizedTimestamp.1.0 timestamp
-uavcan.si.unit.volume fuelLevel
+uavcan.si.unit.volume.Scalar.1.0 fuelLevel
 @extent 8 * 4 * 4
