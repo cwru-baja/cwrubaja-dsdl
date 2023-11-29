@@ -1,4 +1,4 @@
-# temperatures of a VCM system
+# A status message from VCM
 
 # the temperature of the valve as read by the NTC thermistor
 uavcan.si.unit.temperature.Scalar.1.0 valve
@@ -9,4 +9,7 @@ uavcan.si.unit.temperature.Scalar.1.0 module
 # the temperature of the microcontroller
 uavcan.si.unit.temperature.Scalar.1.0 mcu
 
-@extent 16 # takes up 2 CAN2.0B frames at most.
+# the measured current going into the valve.
+uavcan.si.unit.electric_current.Scalar.1.0 current
+
+@extent 32 # takes up 4 CAN2.0B frames at most.
