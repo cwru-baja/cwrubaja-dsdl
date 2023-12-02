@@ -1,0 +1,9 @@
+# a 64 bit random variable.
+
+# the mean of the random variable
+float32 value
+
+# the variance of the random variable
+float32 variance
+
+@sealed
