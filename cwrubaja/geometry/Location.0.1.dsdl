@@ -1,4 +1,7 @@
 float32 latitude
 float32 longitude
 float32 altitude
+float32 latitude_variance
+float32 longitude_variance
+float32 altitude_variance
 @sealed
