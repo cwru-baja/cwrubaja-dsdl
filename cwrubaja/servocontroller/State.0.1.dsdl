@@ -4,6 +4,5 @@
 uavcan.time.SynchronizedTimestamp.1.0 timestamp
 uavcan.si.unit.electric_current.Scalar.1.0 servoCurrent
 bool engaged
-uint4 state
 
 @sealed

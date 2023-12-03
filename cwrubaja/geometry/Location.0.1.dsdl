@@ -1,5 +1,0 @@
-cwrubaja.stat.StochasticFloat64.0.1 latitude  # [radian]
-cwrubaja.stat.StochasticFloat64.0.1 longitude # [radian]
-cwrubaja.stat.StochasticFloat64.0.1 altitude  # [meter]
-
-@sealed
