@@ -1,4 +1,4 @@
-# a 32 bit random variable.
+# a 32 bit floating point random variable.
 
 # the mean of the random variable
 float16 value
@@ -6,4 +6,5 @@ float16 value
 # the variance of the random variable
 float16 variance
 
+@assert _offset_ == {32}
 @sealed
