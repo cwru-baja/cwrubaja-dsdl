@@ -1,0 +1,5 @@
+# Basic datatype that details what algorithmic level the request/message is at
+
+uint4 value
+
+@sealed

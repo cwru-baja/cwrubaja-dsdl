@@ -1,0 +1,4 @@
+bool on
+uint8 note
+uint8 velocity
+@sealed

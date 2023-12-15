@@ -1,0 +1,11 @@
+# type that encapsulates a 24-bit RGB color
+uint8 r
+uint8 g
+uint8 b
+
+uint8 MAX_RED   = 2 ** 8 - 1
+uint8 MAX_GREEN = MAX_RED
+uint8 MAX_BLUE  = MAX_RED
+
+@assert _offset_ == {24}
+@sealed

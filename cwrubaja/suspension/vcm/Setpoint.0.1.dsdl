@@ -1,0 +1,9 @@
+# A specific Semi-Active Suspension valve setpoint.
+
+# the current to send to the valve
+uavcan.si.unit.electric_current.Scalar.1.0 current
+
+# the color to set the external LED to.
+cwrubaja.physics.Color.0.1 color
+
+@extent 2 * 7 * 8 # takes up 2 CAN2.0B frames at most.

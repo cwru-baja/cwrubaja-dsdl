@@ -1,0 +1,18 @@
+# A status message from VCM
+
+# the timestamp of this status message.
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+# the temperature of the valve as read by the NTC thermistor
+uavcan.si.unit.temperature.Scalar.1.0 valve
+
+# the temperature at the module as read by the NTC thermistor
+uavcan.si.unit.temperature.Scalar.1.0 module
+
+# the temperature of the microcontroller
+uavcan.si.unit.temperature.Scalar.1.0 mcu
+
+# the measured current going into the valve.
+uavcan.si.unit.electric_current.Scalar.1.0 current
+
+@extent 208 # takes up 4 CAN2.0B frames at most.
