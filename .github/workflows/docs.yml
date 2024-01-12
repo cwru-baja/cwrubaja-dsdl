@@ -31,8 +31,8 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
-          cache: 'pip' # caching pip dependencies
+          python-version: '3.11'
+          # cache: 'pip' # caching pip dependencies
   
       - name: Install Nunavut
         run: pip install -U nunavut
