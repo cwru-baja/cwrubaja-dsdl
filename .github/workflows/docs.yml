@@ -80,8 +80,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: 'nunavut_out'
+          # Upload our docs
+          path: 'nunavut_out/cwrubaja/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
