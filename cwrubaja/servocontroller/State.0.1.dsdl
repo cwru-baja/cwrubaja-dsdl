@@ -20,4 +20,4 @@ uint8 ServoLocateTwo          = 9
 uint8 ServoLocateDecide       = 10
 uint8 ServoAutoTrim           = 11
 
-@extent 19
+@extent 19 * 8
