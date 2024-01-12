@@ -47,5 +47,5 @@ jobs:
             --enable-serialization-asserts \
             --experimental-languages \
             cwrubaja \
-            --lookup-dir public_regulated_data_types/uavcan
+            --lookup-dir public_regulated_data_types/uavcan \
             --lookup-dir public_regulated_data_types/reg
