@@ -1,0 +1,14 @@
+# Servo Controller Manual Driving datatype
+# Mostly used for debug/exploration of servo & controller behavior
+# Think of it as teleoperation for the entire board (e.g. connect a joystick to Yakut and have control of all actuator axes)
+
+bool pwmEnable
+int32 pwmMicrosecond
+
+bool buckEnable
+
+cwrubaja.physics.Color.0.1 neopixelColor
+
+
+
+@sealed
