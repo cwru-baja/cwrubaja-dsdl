@@ -45,6 +45,7 @@ jobs:
             --target-language html \
             --target-endianness little \
             --enable-serialization-asserts \
+            --experimental-languages \
             cwrubaja-dsdl/cwrubaja \
             --lookup public_regulated_data_types-master/uavcan
             --lookup public_regulated_data_types-master/reg
