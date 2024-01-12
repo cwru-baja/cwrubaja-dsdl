@@ -3,7 +3,7 @@
 # Think of it as teleoperation for the entire board (e.g. connect a joystick to Yakut and have control of all actuator axes)
 
 bool pwmEnable
-int32 pwmMicrosecond
+uint32 pwmMicrosecond
 
 bool buckEnable
 
