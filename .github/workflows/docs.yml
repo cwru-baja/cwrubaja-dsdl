@@ -33,10 +33,10 @@ jobs:
         with:
           python-version: '3.11'
           # cache: 'pip' # caching pip dependencies
-  
+
       - name: Install Nunavut
         run: pip install -U nunavut
-      
+
 
       # Runs a set of commands using the runners shell
       - name: Build CWRUBaja DSDL Docs
@@ -51,9 +51,9 @@ jobs:
             --lookup-dir public_regulated_data_types/reg
 
       - name: Share build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: docs-artifacts
-        path: nunavut_out/
-        compression-level: 9 # maximum compression
-        retention-days: 30
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-artifacts
+          path: nunavut_out/
+          compression-level: 9 # maximum compression
+          retention-days: 30
