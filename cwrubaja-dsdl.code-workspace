@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../public_regulated_data_types"
+		}
+	],
+  "settings": {}
+}

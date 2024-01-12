@@ -59,7 +59,7 @@ jobs:
             --enable-serialization-asserts \
             --experimental-languages \
             cwrubaja \
-            --outdir nunavut_out/cwrubaja-dsdl \
+            --outdir nunavut_out \
             --lookup-dir public_regulated_data_types/uavcan \
             --lookup-dir public_regulated_data_types/reg
 
@@ -82,7 +82,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload our docs
-          path: 'nunavut_out/cwrubaja-dsdl/'
+          path: 'nunavut_out/cwrubaja/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -5,4 +5,19 @@ uavcan.time.SynchronizedTimestamp.1.0 timestamp
 uavcan.si.unit.electric_current.Scalar.1.0 servoCurrent
 bool engaged
 
-@sealed
+
+uint8 state
+
+uint8 ServoStartup            = 1
+uint8 ServoDisengaged         = 2
+uint8 ServoEngaged            = 3
+uint8 ServoFault              = 4
+uint8 ServoTrimEngagedMenu    = 5
+uint8 ServoTrimDisengagedMenu = 6
+uint8 ServoLocateInit         = 7
+uint8 ServoLocateOne          = 8
+uint8 ServoLocateTwo          = 9
+uint8 ServoLocateDecide       = 10
+uint8 ServoAutoTrim           = 11
+
+@extent 19
