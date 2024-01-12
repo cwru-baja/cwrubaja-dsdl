@@ -27,6 +27,15 @@ jobs:
         with:
           repository: OpenCyphal/public_regulated_data_types
           path: public_regulated_data_types
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          cache: 'pip' # caching pip dependencies
+  
+      - name: Install Nunavut
+        run: pip install -U nunavut
       
 
       # Runs a set of commands using the runners shell
