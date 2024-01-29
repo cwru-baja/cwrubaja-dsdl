@@ -15,4 +15,7 @@ uavcan.si.unit.temperature.Scalar.1.0 mcu
 # the measured current going into the valve.
 uavcan.si.unit.electric_current.Scalar.1.0 current
 
+# the measured voltage across the valve.
+uavcan.si.unit.voltage.Scalar.1.0 voltage
+
 @extent 208 # takes up 4 CAN2.0B frames at most.
