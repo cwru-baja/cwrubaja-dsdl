@@ -18,4 +18,4 @@ uavcan.si.unit.electric_current.Scalar.1.0 current
 # the measured voltage across the valve.
 uavcan.si.unit.voltage.Scalar.1.0 voltage
 
-@extent 216 # takes up 4 CAN2.0B frames at most.
+@extent 4 * 7 * 8 # takes up 4 CAN2.0B frames at most.
