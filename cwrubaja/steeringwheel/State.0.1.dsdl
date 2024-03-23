@@ -1,0 +1,17 @@
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+uint2 susState
+
+uint2 SUS1 = 0
+uint2 SUS2 = 1
+
+bool ohshit
+bool smooth
+
+float32 pot1
+float32 pot2
+
+bool toggle
+bool ptt
+
+@sealed
