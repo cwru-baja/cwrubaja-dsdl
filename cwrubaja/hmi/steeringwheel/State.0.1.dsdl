@@ -1,0 +1,7 @@
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+bool[5] buttons
+bool switch
+float32[2] potentiometer
+
+@sealed
