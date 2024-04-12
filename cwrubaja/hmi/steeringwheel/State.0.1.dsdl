@@ -1,7 +1,12 @@
 uavcan.time.SynchronizedTimestamp.1.0 timestamp
 
-bool[5] buttons
-bool switch
-float32[2] potentiometer
+uint8 value
 
+uint8 NORMAL = 0
+
+uint8 RUH_ROH = 1
+
+uint8 MANUAL = 2
+
+uint8 SEMI_ACTIVE = 3
 @sealed
