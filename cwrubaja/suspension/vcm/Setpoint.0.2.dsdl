@@ -1,0 +1,11 @@
+# A specific Semi-Active Suspension valve setpoint.
+
+# the priority of the setpoint command. This facilitates failover behavior.
+# For example, semi-active controller publishes priority 0 and the steering wheel publishes priority 1.
+# If the semi-active controller fails, then the valve controller switches over to the steering wheel.
+uint4 priority
+
+# the current to send to the valve
+uavcan.si.unit.electric_current.Scalar.1.0 current
+
+@extent 1 * 7 * 8 # takes up 2 CAN2.0B frames at most.
