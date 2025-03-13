@@ -8,4 +8,4 @@ uint4 priority
 # the current to send to the valve
 uavcan.si.unit.electric_current.Scalar.1.0 current
 
-@extent 2 * 7 * 8 # takes up 2 CAN2.0B frames at most.
+@extent 1 * 7 * 8 # takes up 2 CAN2.0B frames at most.
