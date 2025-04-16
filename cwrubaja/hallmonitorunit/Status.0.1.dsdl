@@ -1,0 +1,12 @@
+#A Status message from HMU 
+
+# the timestamp of this status message.
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+#Angular Velocity measurements from hall effect sensors in rotations per minute. element 0 is hall channel ect...
+float32[4] rpm
+
+#Analog Voltage measurements in volts. element 0 is analog input 0 ect...
+uavcan.si.unit.voltage.Scalar.1.0[4] voltage
+
+@sealed #sealed becuase the fields will always be this size
