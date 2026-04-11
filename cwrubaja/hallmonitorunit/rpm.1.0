@@ -1,0 +1,11 @@
+#Rotations per minuite. 
+#we can stop messing up conversions now
+
+# the timestamp of this status message.
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+#Angular Velocity measurements from hall effect sensors in rotations per minute. element 0 is hall channel ect...
+float32 rpm
+
+
+@sealed #sealed becuase the fields will always be this size
