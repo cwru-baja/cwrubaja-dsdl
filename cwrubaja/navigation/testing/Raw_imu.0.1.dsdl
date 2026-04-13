@@ -1,0 +1,14 @@
+#used for sending raw data from the ICM20948 imu driver in gofobomo 2026
+#I need this to get raw data I can use to validate my kalman filter for 
+#real driving conditions
+int16 x_deci_degree_per_second
+int16 y_deci_degree_per_second
+int16 z_deci_degree_per_second
+int16 x_acceleration_milli_G
+int16 y_acceleration_milli_G
+int16 z_acceleration_milli_G
+int16 x_micro_tesla
+int16 y_micro_tesla
+int16 z_micro_tesla
+bool magnometer_data_fresh
+@sealed
