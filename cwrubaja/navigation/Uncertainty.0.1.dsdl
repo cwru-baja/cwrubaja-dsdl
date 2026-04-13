@@ -4,6 +4,6 @@
 cwrubaja.navigation.Location.0.1 location
 cwrubaja.navigation.Velocity.0.1 velocity
 cwrubaja.navigation.Acceleration.0.1 acceleration
-cwrubaja.navigation.Orientation.0.1 orrientation
+cwrubaja.navigation.Orientation.0.1 orientation
 cwrubaja.navigation.Angular_velocity.0.1 angular_velocity
 @sealed
