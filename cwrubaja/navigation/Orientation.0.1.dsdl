@@ -1,0 +1,9 @@
+#Orrientation relative to an NED coordinate system
+#representation is euler angles around the coordinate system
+#(0,0,0) is defined as the car perfectly upright and pointing directy north
+#then the angles are the degrees around each axis with postitive defined by the right hand rule
+#so perfectly upright facing straight east would be north=0, east=0, down=90
+float32 north_degrees
+float32 east_degrees
+float32 down_degrees
+@sealed

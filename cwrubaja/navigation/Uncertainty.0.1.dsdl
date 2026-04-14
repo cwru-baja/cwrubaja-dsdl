@@ -1,0 +1,9 @@
+#returns the 1 sigma uncertainty of all the quantities measured by the gps
+#that is to say, 1 std deviation of the measurement assuming gausian distribution
+#so we are 67% sure that this range is true: reported_val - uncertainty < real_val < reported_val + uncertainty
+cwrubaja.navigation.Location.0.1 location
+cwrubaja.navigation.Velocity.0.1 velocity
+cwrubaja.navigation.Acceleration.0.1 acceleration
+cwrubaja.navigation.Orientation.0.1 orientation
+cwrubaja.navigation.Angular_velocity.0.1 angular_velocity
+@sealed

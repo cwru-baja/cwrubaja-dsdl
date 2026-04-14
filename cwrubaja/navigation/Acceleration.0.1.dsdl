@@ -1,0 +1,5 @@
+#represents linear acceleration. north points to true north
+uavcan.si.unit.acceleration.Scalar.1.0 north
+uavcan.si.unit.acceleration.Scalar.1.0 east
+uavcan.si.unit.acceleration.Scalar.1.0 down
+@sealed

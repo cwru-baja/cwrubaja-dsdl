@@ -1,0 +1,17 @@
+#used for sending raw gnss data from the neo-m9n driver in gofobomo 2026
+#I need this to get raw data I can use to validate my kalman filter for 
+#real driving conditions
+# for heading, north is 0 degrees, clockwise is positive
+uint8 fixType
+uint8 flags
+uint8 gnssFixOK
+int32 lon_degree
+int32 lat_degree
+int32 height_mm
+uint32 horizontal_accuracy_mm
+uint32 vertical_accuracy_mm
+int32 ground_speed_mm_per_second
+int32 heading_degree_1E_minus_5 
+uint32 speed_accuracy_mm_per_second
+uint32 heading_accuracy_1E_minus_5
+@sealed

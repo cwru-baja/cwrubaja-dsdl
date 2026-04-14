@@ -1,0 +1,5 @@
+#represents linear velocity. north points to true north
+uavcan.si.unit.velocity.Scalar.1.0 north
+uavcan.si.unit.velocity.Scalar.1.0 east
+uavcan.si.unit.velocity.Scalar.1.0 down
+@sealed
