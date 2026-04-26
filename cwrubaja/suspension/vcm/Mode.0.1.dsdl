@@ -1,0 +1,27 @@
+# A Semi-Active Mode Enum
+uint8 mode
+
+# the modes
+
+# manual
+uint8 MANUAL = 0
+
+# SOFT
+uint8 SOFT = 1
+
+# STIFF
+uint8 STIFF = 2
+
+# JUMP
+uint8 JUMP = 3
+
+# DRIFT
+uint8 DRIFT = 4
+
+# LEFT
+uint8 LEFT = 5
+
+# RIGHT
+uint8 RIGHT = 6
+
+@extent 1 * 4 * 8 # i made ts up
