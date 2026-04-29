@@ -6,4 +6,5 @@
 float32 north_degrees
 float32 east_degrees
 float32 down_degrees
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed

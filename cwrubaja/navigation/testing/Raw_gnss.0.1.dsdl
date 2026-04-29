@@ -14,4 +14,5 @@ int32 ground_speed_mm_per_second
 int32 heading_degree_1E_minus_5 
 uint32 speed_accuracy_mm_per_second
 uint32 heading_accuracy_1E_minus_5
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed

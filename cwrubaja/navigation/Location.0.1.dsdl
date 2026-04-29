@@ -2,4 +2,5 @@
 float32 latitude_degrees
 float32 longitude_degrees
 uavcan.si.unit.length.Scalar.1.0 altitude
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed
