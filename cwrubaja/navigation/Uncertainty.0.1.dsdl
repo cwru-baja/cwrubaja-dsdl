@@ -6,4 +6,5 @@ cwrubaja.navigation.Velocity.0.1 velocity
 cwrubaja.navigation.Acceleration.0.1 acceleration
 cwrubaja.navigation.Orientation.0.1 orientation
 cwrubaja.navigation.Angular_velocity.0.1 angular_velocity
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed

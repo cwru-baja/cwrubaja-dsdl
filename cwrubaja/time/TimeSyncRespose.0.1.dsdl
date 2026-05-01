@@ -1,0 +1,8 @@
+#timestamp for when GOFOBOMO recieves the request message
+uavcan.time.SynchronizedTimestamp.1.0 request_recived_us
+
+#timestamp for when GOFOBOMO sends the recived message
+uavcan.time.SynchronizedTimestamp.1.0 response_send_us
+#we report the received and sent times to remove the inaccuracy of gofobomo's internal delays
+
+@sealed

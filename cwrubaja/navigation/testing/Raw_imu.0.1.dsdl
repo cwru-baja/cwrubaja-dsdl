@@ -11,4 +11,5 @@ int16 x_micro_tesla
 int16 y_micro_tesla
 int16 z_micro_tesla
 bool magnometer_data_fresh
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed

@@ -2,4 +2,5 @@
 uavcan.si.unit.velocity.Scalar.1.0 north
 uavcan.si.unit.velocity.Scalar.1.0 east
 uavcan.si.unit.velocity.Scalar.1.0 down
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
 @sealed

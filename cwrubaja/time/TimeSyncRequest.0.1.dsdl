@@ -1,0 +1,8 @@
+# I don't like the defualt implemntation for the time sycronization service beucase it doesn't take into account internal transfer delays or
+# communication delays. So I'm making my own
+
+# There can only be 1 time sync master, and as many time sync slaves as you want. In our case the timesync slave is GOFOBOMO
+# really all that happens is the slaves periodically send out this request, and the master sends back the reply containging the master's time
+
+#this message litterally has no info inside it. I just need the node ID from the trasnfer meta data
+@sealed
